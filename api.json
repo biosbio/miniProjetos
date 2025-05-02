@@ -1,0 +1,45 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "titulo": "Estudar JavaScript",
+      "descricao": "Aprender os conceitos básicos de JavaScript.",
+      "status": "pendente"
+    },
+    {
+      "id": 2,
+      "titulo": "Praticar React",
+      "descricao": "Construir um projeto simples usando React.",
+      "status": "em progresso"
+    },
+    {
+      "id": 3,
+      "titulo": "Revisar CSS",
+      "descricao": "Rever os conceitos de Flexbox e Grid.",
+      "status": "concluída"
+    },
+    {
+      "id": 4,
+      "titulo": "Aprender Node.js",
+      "descricao": "Fazer um curso introdutório sobre Node.js.",
+      "status": "pendente"
+    },
+    {
+      "id": 5,
+      "titulo": "Estudar TypeScript",
+      "descricao": "Aprender os conceitos básicos de TypeScript.",
+      "status": "pendente"
+    },
+    {
+      "id": 6,
+      "titulo": "Praticar Git",
+      "descricao": "Fazer um projeto usando Git e GitHub.",
+      "status": "em progresso"
+    },
+    {
+      "titulo": "tarefa",
+      "descricao": "fg",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Mini-Projeto</title>
+  </head>
+  <body>
+    <header>
+      <input type="text" id="busca" onkeyup="pesquisarTarefa()" placeholder="Pesquisar Tarefas pela Descrição" />
+    </header>
+    <main>
+      <section id="tarefas">
+        <h2>Tarefas <button onclick="novaTarefa()">Nova Tarefa</button></h2>
+        <!-- <h6>Nenhuma Tarefa Registrada</h6> -->
+        <ul id="lista"></ul>
+      </section>
+      <section id="overlay" onclick="fecharNovaTarefa()"></section>
+      <div class="modal" id="modal">
+        <form onsubmit="inserirTarefaNova()">
+          <h3>
+            Criar Tarefas
+            <box-icon
+              name="x"
+              size="md"
+              onclick="fecharNovaTarefa()"
+            ></box-icon>
+            
+            
+          </h3>
+          <label for="titulo">Titulo</label>
+          <input type="text" id="titulo" required />
+          <label for="descricao">Descrição</label>
+          <textarea id="descricao" required></textarea>
+          <button>Criar</button>
+        </form>
+      </div>
+     
+    </main>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
