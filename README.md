@@ -1,2 +1,2 @@
-PATA RODAR:
+PARA RODAR:
 npm run api
